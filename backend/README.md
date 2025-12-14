@@ -22,6 +22,8 @@ this allows us to run turso commands, like migrate.
 
 note, this is different from the `.env` file credentials which allow database level auth.
 
+
+test
 ## db
 https://app.turso.tech/greenrabbit/databases/yahtsee-game-state/data
 
