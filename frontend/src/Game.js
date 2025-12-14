@@ -42,7 +42,7 @@ function Game() {
     const fetchGames = async () => {
       setIsLoadingGames(true);
       try {
-        const res = await fetch("http://localhost:5000/games");
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/games`);
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
